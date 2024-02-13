@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    &lt;!&ndash;set方法注入&ndash;&gt;
+    <bean id="book" class="com.cjx.spring6.iocxml.di.Book">
+        <property name="bname" value="前段开发"></property>
+        <property name="author" value="xxx"></property>
+    </bean>-->
+
+    <!--构造器注入-->
+    <bean id="bookCon" class="com.cjx.spring6.iocxml.di.Book">
+        <constructor-arg name="bname" value="java开发"></constructor-arg>
+        <constructor-arg name="author" value="xin"></constructor-arg>
+    </bean>
+</beans>
