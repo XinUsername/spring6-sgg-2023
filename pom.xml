@@ -16,6 +16,7 @@
         <module>cjx-spring</module>
         <module>spring6-aop</module>
         <module>spring6-junit</module>
+        <module>spring-jdbc-tx</module>
     </modules>
 
     <properties>
