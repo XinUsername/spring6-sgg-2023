@@ -42,6 +42,12 @@
             <artifactId>spring-aspects</artifactId>
             <version>6.0.2</version>
         </dependency>
+        <!--基于xml实现的声明式事务，必须引入aspectJ的依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.0.2</version>
+        </dependency>
         <!--junit-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>

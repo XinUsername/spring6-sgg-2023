@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring6-aop" />
+        <module name="spring6-reflect" />
+        <module name="spring-first" />
+        <module name="cjx-spring" />
+        <module name="spring6-ioc-xml" />
+        <module name="spring6-ioc-annotation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring6-sgg-2023" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

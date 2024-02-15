@@ -1,4 +1,4 @@
-package com.cjx.spring.aop.annoaop;
+package com.cjx.spring.aop.xmlaop;
 
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -12,7 +12,7 @@ public class CalculatorTest {
 
     @Test
     public void testAdd(){
-        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("beanaop.xml");
         Calculator calculator = context.getBean(Calculator.class);
         int result = calculator.add(1,3);
         System.out.println("测试结果："+result);

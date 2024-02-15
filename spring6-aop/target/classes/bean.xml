@@ -18,6 +18,8 @@
     -->
     <context:component-scan base-package="com.cjx.spring.aop.annoaop"></context:component-scan>
 
-    <aop:aspectj-autoproxy />
-    
+    <!--开启aspectj自动代理，为目标对象生成代理-->
+<!--    <aop:aspectj-autoproxy />-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
 </beans>

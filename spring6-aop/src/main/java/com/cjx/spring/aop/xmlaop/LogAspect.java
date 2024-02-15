@@ -1,4 +1,4 @@
-package com.cjx.spring.aop.annoaop;
+package com.cjx.spring.aop.xmlaop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -13,12 +13,8 @@ import java.util.Arrays;
 @Component
 public class LogAspect {
 
-    //切入点方法
-    @Pointcut("execution(public int com.cjx.spring.aop.annoaop.CalculatorImpl.*(..))")
-    public void pointCut(){}
 
     //前置通知
-    @Before("pointCut()")
     public void beforeMethod(JoinPoint joinPoint){
         String methodName = joinPoint.getSignature().getName();
         String args = Arrays.toString(joinPoint.getArgs());
@@ -26,7 +22,6 @@ public class LogAspect {
     }
 
     //后置通知
-    @After("pointCut()")
     public void afterMethod(JoinPoint joinPoint){
         String methodName = joinPoint.getSignature().getName();
         String args = Arrays.toString(joinPoint.getArgs());
@@ -34,21 +29,18 @@ public class LogAspect {
     }
 
     //返回通知
-    @AfterReturning(value = "pointCut()", returning = "result")
     public void afterReturningMethod(JoinPoint joinPoint,Object result){
         String methodName = joinPoint.getSignature().getName();
         System.out.println("Logger-->返回通知，方法名："+methodName+"，结果："+ result);
     }
 
     //异常通知
-    @AfterThrowing(value = "pointCut()",throwing = "ex")
     public void afterThrowingMethod(JoinPoint joinPoint, Throwable ex){
         String methodName = joinPoint.getSignature().getName();
         System.out.println("Logger-->异常通知，方法名："+methodName+"，异常："+ ex);
     }
 
     //环绕通知
-    @Around(value = "pointCut()")
     public Object aroundMethod(ProceedingJoinPoint joinPoint){
         String methodName = joinPoint.getSignature().getName();
         String args = Arrays.toString(joinPoint.getArgs());

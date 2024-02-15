@@ -1,4 +1,4 @@
-package com.cjx.spring.aop.annoaop;
+package com.cjx.spring.aop.xmlaop;
 
 import org.springframework.stereotype.Component;
 
