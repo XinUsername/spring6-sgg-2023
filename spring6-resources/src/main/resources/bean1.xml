@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="resourceBean" class="com.cjx.spring6.resourceloader.ResourceBean">
+        <!--可以使用file:、http:、ftp:等前缀强制Spring才用对应的资源访问策略-->
+        <!--如果不采用任何前缀，则Spring将才用与该ApplicationContext相同的资源访问策略来访问资源-->
+        <property name="resource" value="classpath:cjx.txt"></property>
+    </bean>
+</beans>
