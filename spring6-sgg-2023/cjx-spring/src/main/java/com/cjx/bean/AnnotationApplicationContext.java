@@ -4,7 +4,6 @@ import com.cjx.anno.Bean;
 import com.cjx.anno.Di;
 
 import java.io.File;
-import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.net.URL;

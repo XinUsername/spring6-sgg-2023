@@ -1,7 +1,6 @@
 package com.cjx.spring6.iocxml.auto.service;
 
 import com.cjx.spring6.iocxml.auto.dao.UserDao;
-import com.cjx.spring6.iocxml.auto.dao.UserDaoImpl;
 
 public class UserServiceImpl implements UserService{
 

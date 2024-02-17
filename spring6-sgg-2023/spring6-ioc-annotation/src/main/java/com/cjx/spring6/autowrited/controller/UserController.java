@@ -1,8 +1,6 @@
 package com.cjx.spring6.autowrited.controller;
 
 import com.cjx.spring6.autowrited.service.UserService;
-import com.cjx.spring6.bean.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 @Controller

@@ -10,6 +10,7 @@
         <module name="cjx-spring" />
         <module name="spring6-i18n" />
         <module name="spring6-ioc-xml" />
+        <module name="springMVC-sgg-2021" />
         <module name="spring6-resources" />
         <module name="spring6-junit" />
         <module name="spring6-aop" />

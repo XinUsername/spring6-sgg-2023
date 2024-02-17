@@ -1,7 +1,6 @@
 package com.cjx.spring6.iocxml.auto.controller;
 
 import com.cjx.spring6.iocxml.auto.service.UserService;
-import com.cjx.spring6.iocxml.auto.service.UserServiceImpl;
 
 public class UserController {
 
