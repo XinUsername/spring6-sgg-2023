@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--完成User对象创建
+        bean标签：
+            id:唯一表示
+            class:要创建对象的全路径（包名+类名）
+    -->
+    <bean id="user" class="com.cjx.spring6.User"></bean>
+</beans>
