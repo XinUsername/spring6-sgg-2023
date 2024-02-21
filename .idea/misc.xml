@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springMVC-sgg-2021/springMVC-demo1" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVC-sgg-2021/springMVC-demo2" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />

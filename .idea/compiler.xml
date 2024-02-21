@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-jdbc-tx" />
-        <module name="cjx-spring" />
-        <module name="spring6-i18n" />
         <module name="spring6-ioc-xml" />
         <module name="spring6-resources" />
-        <module name="springMVC-demo1" />
-        <module name="spring6-junit" />
         <module name="spring6-aop" />
         <module name="spring-first" />
         <module name="spring6-reflect" />
-        <module name="spring6-validator" />
         <module name="spring6-ioc-annotation" />
+        <module name="cjx-spring" />
+        <module name="spring6-i18n" />
+        <module name="springMVC-demo1" />
+        <module name="spring6-junit" />
+        <module name="springMVC-demo2" />
+        <module name="spring6-validator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

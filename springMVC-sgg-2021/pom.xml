@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>springMVC-demo1</module>
+        <module>springMVC-demo2</module>
     </modules>
     <parent>
         <groupId>com.cjx</groupId>
