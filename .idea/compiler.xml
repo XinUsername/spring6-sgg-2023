@@ -10,6 +10,7 @@
         <module name="spring-jdbc-tx" />
         <module name="spring6-ioc-xml" />
         <module name="spring6-resources" />
+        <module name="mybatisx_demo" />
         <module name="spring6-aop" />
         <module name="spring-first" />
         <module name="spring6-reflect" />
@@ -32,6 +33,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mybatisplus" options="-parameters" />
       <module name="mybatisplus-datasource" options="-parameters" />
+      <module name="mybatisx_demo" options="-parameters" />
     </option>
   </component>
 </project>
