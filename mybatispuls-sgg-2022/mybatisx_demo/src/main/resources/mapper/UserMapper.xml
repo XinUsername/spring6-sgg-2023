@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cjx.mybatisx.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.cjx.mybatisx.domain.User">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="age" column="age" jdbcType="INTEGER"/>
+            <result property="email" column="email" jdbcType="VARCHAR"/>
+            <result property="sex" column="sex" jdbcType="INTEGER"/>
+            <result property="isDeleted" column="is_deleted" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,age,
+        email,sex,is_deleted
+    </sql>
+    <insert id="insertSelective">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="name != null">name,</if>
+            <if test="age != null">age,</if>
+            <if test="email != null">email,</if>
+            <if test="sex != null">sex,</if>
+            <if test="isDeleted != null">is_deleted,</if>
+        </trim>
+        values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id,jdbcType=BIGINT},</if>
+            <if test="name != null">#{name,jdbcType=VARCHAR},</if>
+            <if test="age != null">#{age,jdbcType=INTEGER},</if>
+            <if test="email != null">#{email,jdbcType=VARCHAR},</if>
+            <if test="sex != null">#{sex,jdbcType=INTEGER},</if>
+            <if test="isDeleted != null">#{isDeleted,jdbcType=INTEGER},</if>
+        </trim>
+    </insert>
+
+    <select id="selectNameAndAgeByIdBetweenOrderByIdDesc" resultMap="BaseResultMap">
+        select name, age
+        from user
+        where id between #{beginId,jdbcType=BIGINT} and #{endId,jdbcType=BIGINT}
+        order by id desc
+    </select>
+
+    <update id="updateNameAndEmailByNameLike">
+        update user
+        set name  = #{name,jdbcType=VARCHAR},
+            email = #{email,jdbcType=VARCHAR}
+        where name like #{oldName,jdbcType=VARCHAR}
+    </update>
+    <delete id="deleteByNameAndIsDeletedNot">
+        delete from user
+        where
+        name = #{name,jdbcType=VARCHAR}
+        AND is_deleted
+        &lt;&gt;
+        #{isDeleted,jdbcType=NUMERIC}
+    </delete>
+</mapper>
