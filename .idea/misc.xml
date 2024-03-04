@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/mybatispuls-sgg-2022/mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/mybatispuls-sgg-2022/mybatisplus-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/mybatispuls-sgg-2022/mybatisx_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-demo01/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -23,5 +24,5 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
 </project>

@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>mybatisplus</module>
+        <module>mybatisplus-datasource</module>
+        <module>mybatisx_demo</module>
     </modules>
 
     <properties>

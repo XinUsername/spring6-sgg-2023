@@ -22,10 +22,13 @@
         <module name="springMVC-demo1" />
         <module name="spring6-junit" />
         <module name="springMVC-demo2" />
+        <module name="spring-boot-demo01" />
         <module name="spring6-validator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-demo01" target="1.8" />
+      <module name="spring-boot3-sgg-2023" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
