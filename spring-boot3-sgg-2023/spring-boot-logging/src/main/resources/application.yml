@@ -1,0 +1,7 @@
+## 日志相关配置
+#logging:
+#  group:
+#    mygroup: com.cjx.logging.controller com.cjx.business # 自定义分组
+#  level:
+#    root: debug # springboot默认是info
+#    mygroup: trace

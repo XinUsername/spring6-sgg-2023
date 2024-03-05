@@ -8,7 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-jdbc-tx" />
+        <module name="spring-boot-demo02" />
         <module name="spring6-ioc-xml" />
+        <module name="spring-boot-logging" />
         <module name="spring6-resources" />
         <module name="mybatisx_demo" />
         <module name="spring6-aop" />
@@ -26,17 +28,15 @@
         <module name="spring6-validator" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-boot-demo01" target="1.8" />
-      <module name="spring-boot3-sgg-2023" target="1.8" />
-      <module name="test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mybatisplus" options="-parameters" />
       <module name="mybatisplus-datasource" options="-parameters" />
       <module name="mybatisx_demo" options="-parameters" />
+      <module name="spring-boot-demo01" options="-parameters" />
+      <module name="spring-boot-demo02" options="-parameters" />
+      <module name="spring-boot-logging" options="-parameters" />
     </option>
   </component>
 </project>

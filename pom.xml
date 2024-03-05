@@ -12,6 +12,7 @@
         <module>spring6-sgg-2023</module>
         <module>springMVC-sgg-2021</module>
         <module>mybatispuls-sgg-2022</module>
+        <module>spring-boot3-sgg-2023</module>
     </modules>
 
     <properties>

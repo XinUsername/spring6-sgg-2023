@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/mybatispuls-sgg-2022/mybatisplus-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/mybatispuls-sgg-2022/mybatisx_demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-demo02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-logging/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
