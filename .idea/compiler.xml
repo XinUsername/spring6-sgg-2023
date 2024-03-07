@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-jdbc-tx" />
         <module name="spring-boot-demo02" />
+        <module name="spring-boot-ssm" />
         <module name="spring6-ioc-xml" />
         <module name="spring-boot-logging" />
         <module name="spring6-resources" />
@@ -41,6 +42,7 @@
       <module name="spring-boot-demo01" options="-parameters" />
       <module name="spring-boot-demo02" options="-parameters" />
       <module name="spring-boot-logging" options="-parameters" />
+      <module name="spring-boot-ssm" options="-parameters" />
       <module name="spring-boot-web" options="-parameters" />
       <module name="spring-boot-web2" options="-parameters" />
     </option>

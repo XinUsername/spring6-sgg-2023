@@ -23,6 +23,7 @@
         <module>spring-boot-demo02</module>
         <module>spring-boot-logging</module>
         <module>spring-boot-web</module>
+        <module>spring-boot-ssm</module>
     </modules>
 
     <properties>
