@@ -24,6 +24,7 @@
         <module>spring-boot-logging</module>
         <module>spring-boot-web</module>
         <module>spring-boot-ssm</module>
+        <module>spring-boot-feature</module>
     </modules>
 
     <properties>
