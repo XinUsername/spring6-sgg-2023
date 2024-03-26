@@ -8,14 +8,27 @@
         <version>3.0.5</version>
     </parent>
     <groupId>com.cjx</groupId>
-    <artifactId>spring-boot-feature</artifactId>
+    <artifactId>boot-03-logging</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-feature</name>
-    <description>spring-boot-feature</description>
-    <properties>
-        <java.version>17</java.version>
-    </properties>
+    <name>boot-03-logging</name>
+    <description>boot-03-logging</description>
+
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
 
     </dependencies>
 

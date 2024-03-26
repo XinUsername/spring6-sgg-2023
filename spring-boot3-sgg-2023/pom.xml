@@ -19,12 +19,13 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-boot-demo01</module>
-        <module>spring-boot-demo02</module>
-        <module>spring-boot-logging</module>
-        <module>spring-boot-web</module>
-        <module>spring-boot-ssm</module>
-        <module>spring-boot-feature</module>
+        <module>boot-01-demo01</module>
+        <module>boot-02-demo02</module>
+        <module>boot-03-logging</module>
+        <module>boot-04-web</module>
+        <module>boot-05-ssm</module>
+        <module>boot-06-feature</module>
+        <module>boot-07-core</module>
     </modules>
 
     <properties>

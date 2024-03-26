@@ -7,13 +7,14 @@
     <file url="file://$PROJECT_DIR$/mybatispuls-sgg-2022/mybatisx_demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatispuls-sgg-2022/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatispuls-sgg-2022/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-demo01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-demo01/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-demo02/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-feature/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-logging/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-ssm/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/boot-01-demo01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/boot-01-demo01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/boot-02-demo02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/boot-03-logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/boot-04-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/boot-05-ssm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/boot-06-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/boot-07-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/spring-boot-web2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot3-sgg-2023/src/main/resources" charset="UTF-8" />
@@ -49,6 +50,7 @@
     <file url="file://$PROJECT_DIR$/springMVC-sgg-2021/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/3.0.5/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

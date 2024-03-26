@@ -7,15 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-01-demo01" />
+        <module name="boot-07-core" />
         <module name="spring-jdbc-tx" />
-        <module name="spring-boot-demo02" />
-        <module name="spring-boot-ssm" />
-        <module name="spring-boot-feature" />
+        <module name="boot-02-demo02" />
         <module name="spring6-ioc-xml" />
-        <module name="spring-boot-logging" />
-        <module name="spring6-resources" />
         <module name="mybatisx_demo" />
-        <module name="spring-boot-web" />
+        <module name="spring6-resources" />
+        <module name="boot-04-web" />
         <module name="spring6-aop" />
         <module name="spring-first" />
         <module name="spring6-reflect" />
@@ -27,26 +26,25 @@
         <module name="springMVC-demo1" />
         <module name="spring6-junit" />
         <module name="springMVC-demo2" />
-        <module name="spring-boot-demo01" />
+        <module name="boot-05-ssm" />
         <module name="spring6-validator" />
+        <module name="boot-06-feature" />
+        <module name="boot-03-logging" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-boot-web2" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-01-demo01" options="-parameters" />
+      <module name="boot-02-demo02" options="-parameters" />
+      <module name="boot-03-logging" options="-parameters" />
+      <module name="boot-04-web" options="-parameters" />
+      <module name="boot-05-ssm" options="-parameters" />
+      <module name="boot-06-feature" options="-parameters" />
+      <module name="boot-07-core" options="-parameters" />
       <module name="mybatisplus" options="-parameters" />
       <module name="mybatisplus-datasource" options="-parameters" />
       <module name="mybatisx_demo" options="-parameters" />
-      <module name="spring-boot-demo01" options="-parameters" />
-      <module name="spring-boot-demo02" options="-parameters" />
-      <module name="spring-boot-feature" options="-parameters" />
-      <module name="spring-boot-logging" options="-parameters" />
-      <module name="spring-boot-ssm" options="-parameters" />
-      <module name="spring-boot-web" options="-parameters" />
-      <module name="spring-boot-web2" options="-parameters" />
     </option>
   </component>
 </project>
